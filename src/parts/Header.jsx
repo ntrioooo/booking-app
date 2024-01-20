@@ -6,13 +6,13 @@ function Header(props) {
   const getNavLinkClass = (path) => {
     const activeClass =
       props.location.pathname === path
-        ? "text-primary px-4 hover:underline hover:underline-offset-2 active"
+        ? "text-blue-700 px-4 hover:underline hover:underline-offset-2 active"
         : "text-secondary px-4 hover:underline hover:underline-offset-2";
 
     return `${activeClass}`;
   };
   return (
-    <header className="border-b-[1px] border-gray200 w-full relative">
+    <header className="border-b-[1px] border-gray-200 w-full relative mb-14">
       <nav className="bg-white border-gray-200">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 h-[80px]">
           <BrandIcon />

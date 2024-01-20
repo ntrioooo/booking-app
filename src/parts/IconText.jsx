@@ -3,8 +3,8 @@ import Button from "../utils/Button";
 
 function IconText() {
   return (
-    <Button className="text-[26px] font-medium text-primary" href="" type="link">
-      Stay<span className="text-secondary">cation</span>
+    <Button className="text-[26px] font-medium text-blue-700" href="" type="link">
+      Stay<span className="text-gray-700">cation</span>
     </Button>
   );
 }
